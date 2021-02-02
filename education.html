@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="education.css">
+
+    <title>Education</title>
+
+</head>
+
+<body>
+    <!-- Навигация и лого -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><span>P</span>ortfolio</a>
+            </div>
+            <nav class="navbar">
+                <button id="burger" class="burger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </button>
+                <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label>Menu</label>
+                <ul>
+
+                    <li><a href="about.html" class="active"> About</a> </li>
+                    <li><a href="info.html" class="active"> Info</a> </li>
+                    <li><a href="education.html" class="active"> Education</a> </li>
+                    <li><a href="skills.html" class="active"> Skills</a> </li>
+                    <li><a href="projects.html" class="active"> Projects</a> </li>
+                    <li><a href="contact.html" class="active"> Contact</a> </li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <main>
+        <section class="education">
+            <!-- Заглаиве на страницата -->
+            <h2 class="title1">Education</h2>
+            <div class="flex-row">
+                <!-- Ляв списък-->
+                <div class="flex">
+                    <ul>
+                        <li>
+
+                            <i class="fa fa-graduation-cap"></i>
+
+                            <span class="time">OCTOBER 2020 - PRESENT</span>
+                            <h5 class="h5">MINOR PROGRAM- <span class="place ">New Bulgarian University</span></h5>
+                            <p class="p">PROGRAMS:Web design and advertising </p>
+                        </li>
+                        <li>
+
+                            <i class="fa fa-graduation-cap"></i>
+
+                            <span class="time ">OCTOBER 2019 - PRESENT</span>
+                            <h5 class="h5">BACHELOR DEGREE- <span class="place ">New Bulgarian University</span></h5>
+                            <p class="p">PROGRAMS: Information Technology </p>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Десен списък-->
+                <div class="flex1">
+                    <ul>
+                        <li>
+
+                            <i class="fa fa-graduation-cap"></i>
+
+                            <span class="time ">MARCH 2019 -MAY 2019</span>
+                            <h5 class="h5"> VOCATIONAL TRAINING- <span class="place ">SoftUni</span></h5>
+                            <p class="p">Programming Basicswith JavaScript</p>
+                        </li>
+                        <li>
+
+                            <i class="fa fa-graduation-cap"></i>
+
+                            <span class="time ">SEPTEMBER 2014 -MAY 2019</span>
+                            <h5 class="h5"> HIGH SCHOOL- <span class="place">PMG "Prof. Emmanuel Ivanov" </span></h5>
+                            <p class="p">SPECIALTY: Information Technology and Mathematics</p>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="JSnav.js"></script>
+</body>
+
+</html>

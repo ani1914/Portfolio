@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal infos</title>
+    <link rel="stylesheet" href="projects.css">
+</head>
+
+<body>
+    <!-- Навигация и лого -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><span>P</span>ortfolio</a>
+            </div>
+            <nav class="navbar">
+                <button id="burger" class="burger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </button>
+                <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label>Menu</label>
+                <ul>
+
+                    <li><a href="about.html" class="active"> About</a> </li>
+                    <li><a href="info.html" class="active"> Info</a> </li>
+                    <li><a href="education.html" class="active"> Education</a> </li>
+                    <li><a href="skills.html" class="active"> Skills</a> </li>
+                    <li><a href="projects.html" class="active"> Projects</a> </li>
+                    <li><a href="contact.html" class="active"> Contact</a> </li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <main>
+        <!-- Първа секция -->
+        <section class="more">
+
+            <h2 class="title1">Adobe Illustrator</h2>
+            <div class="slideshow-container">
+                <!-- Снимки -->
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 7</div>
+                    <img class="img11" src="Image/img11-01.png" style="width:100%">
+
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 7</div>
+                    <img class="img11" src="Image/img15-01.png" style="width:100%">
+
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 7</div>
+                    <img class="img11" src="Image/img14-01.png" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 7</div>
+                    <img class="img11" src="Image/img18.png" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">5 / 7</div>
+                    <img class="img11" src="Image/img12-01.png" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">6 / 7</div>
+                    <img class="img11" src="Image/img16-01.png" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">7 / 7</div>
+                    <img class="img11" src="Image/img13-01.png" style="width:100%">
+                </div>
+
+                <!-- Странични бутони за напред и назад -->
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            </div>
+            <br>
+            <!-- Бутончета под снимките за избор на снимка -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+                <span class="dot" onclick="currentSlide(7)"></span>
+            </div>
+        </section>
+        <!-- Втора секция -->
+        <section class="more">
+            <h2 class="title2">Photography</h2>
+            <div class="slideshow-container">
+                <!-- Снимки -->
+                <div class="mySlide fade">
+                    <div class="numbertext">1 / 5</div>
+                    <img class="img12" src="Image/CF4AFEB4-3934-4642-8404-F2E448656470.JPG" style="width:100%">
+
+                </div>
+                <div class="mySlide fade">
+                    <div class="numbertext">2 / 5</div>
+                    <img class="img12" src="Image/CBF73842-FB2B-465E-8DD7-12CB4BE159A7.JPG" style="width:100%">
+
+                </div>
+                <div class="mySlide fade">
+                    <div class="numbertext">3 / 5</div>
+                    <img class="img12" src="Image/5459D162-3F4E-47F5-8D05-AD998F0CBE96.JPG" style="width:100%">
+                </div>
+                <div class="mySlide fade">
+                    <div class="numbertext">4 / 5</div>
+                    <img class="img12" src="Image/IMG_2210.jpg" style="width:100%">
+                </div>
+                <div class="mySlide fade">
+                    <div class="numbertext">5 / 5</div>
+                    <img class="img12" src="Image/IMG_22.jpg" style="width:100%">
+                </div>
+
+
+
+                <!-- Странични бутони за напред и назад -->
+                <a class="prev" onclick="plusSlide(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlide(1)">&#10095;</a>
+
+            </div>
+            <br>
+            <!-- Бутончета под снимките за избор на снимка -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlid(1)"></span>
+                <span class="dot" onclick="currentSlid(2)"></span>
+                <span class="dot" onclick="currentSlid(3)"></span>
+                <span class="dot" onclick="currentSlid(4)"></span>
+                <span class="dot" onclick="currentSlid(5)"></span>
+            </div>
+        </section>
+    </main>
+    <script src="JSnav.js"></script>
+    <script src="JSgallery.js"></script>
+
+</body>
+
+</html>

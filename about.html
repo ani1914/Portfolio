@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="about.css">
+
+</head>
+
+<body>
+    <!-- Навигация и лого -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><span>P</span>ortfolio</a>
+            </div>
+            <nav class="navbar">
+                <button id="burger" class="burger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </button>
+                <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label>Menu</label>
+                <ul>
+
+                    <li><a href="about.html" class="active"> About</a> </li>
+                    <li><a href="info.html" class="active"> Info</a> </li>
+                    <li><a href="education.html" class="active"> Education</a> </li>
+                    <li><a href="skills.html" class="active"> Skills</a> </li>
+                    <li><a href="projects.html" class="active"> Projects</a> </li>
+                    <li><a href="contact.html" class="active"> Contact</a> </li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <main>
+        <section class="about" id="about">
+            <div class="container">
+                <!-- Заглаиве на страницата -->
+                <h2 class="title">About me</h2>
+
+                <div class="about-content">
+                    <!-- Снимка  -->
+                    <div class="img">
+                        <img src="Image/main1.png" alt="image">
+                    </div>
+                    <div class="description">
+                        <!-- Текст с информация за мен -->
+                        <h4>Hi, I'm Anna-Maria</h4>
+                        <h3>Second year student "IT" and first year "Web design and advertising".</h3>
+                        <p>Enthusiastic, reliable, friendly, individual who works hard to achieve his potentials. To pursue a challenging career, I want to be a part of an company that gives scope to enhance my knowledge and utilizing my skills towards the
+                            develop of the company.</p>
+                        <!--  Бутон за отваряне CV -->
+                        <form action="ani.pdf" method="GET" target="_blank">
+                            <button type="submit" class="btn-bg"> Download CV</button>
+
+
+                        </form>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <script src="JSnav.js"></script>
+</body>
+
+
+</html>

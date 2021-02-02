@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal infos</title>
+    <link rel="stylesheet" href="info.css">
+</head>
+
+<body>
+    <!-- Навигация и лого -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><span>P</span>ortfolio</a>
+            </div>
+            <nav class="navbar">
+                <button id="burger" class="burger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </button>
+                <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label>Menu</label>
+                <ul>
+
+                    <li><a href="about.html" class="active"> About</a> </li>
+                    <li><a href="info.html" class="active"> Info</a> </li>
+                    <li><a href="education.html" class="active"> Education</a> </li>
+                    <li><a href="skills.html" class="active"> Skills</a> </li>
+                    <li><a href="projects.html" class="active"> Projects</a> </li>
+                    <li><a href="contact.html" class="active"> Contact</a> </li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <main>
+        <section class="more">
+            <!-- Заглаиве на страницата -->
+            <h2 class="title1">Personal info</h2>
+            <div class="personal">
+                <!-- Лява колона-->
+                <div class="infos1">
+                    <ul>
+                        <li>
+                            <span class="title">First Name:</span>
+                            <span class="info">Anna-Maria</span>
+                        </li>
+                        <li>
+                            <span class="title">Last Name:</span>
+                            <span class="info">Mitova</span>
+                        </li>
+                        <li>
+                            <span class="title">Age:</span>
+                            <span class="info">20</span>
+                        </li>
+                        <li>
+                            <span class="title">Nationality</span>
+                            <span class="info">Bulgarian</span>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Дясна колона-->
+                <div class="infos2">
+                    <ul>
+                        <li>
+                            <span class="title">Phone:</span>
+                            <span class="info">0879330424</span>
+                        </li>
+                        <li>
+                            <span class="title">Email:</span>
+                            <span class="info">animitova1551014@gmail.com</span>
+                        </li>
+                        <li>
+                            <span class="title"> GutHub:</span>
+                            <span class="info">ani1914</span>
+                        </li>
+                        <li>
+                            <span class="title">Langages:</span>
+                            <span class="info">Bulgarian, English</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--Мото -->
+            <div class="div_motto">
+                <p class="motto">
+                    "I owe my success to having listened respectfully to the very best advice, and then going away and doing the exact opposite." <br> <strong class="strongM"> -G. K. Chesterton</strong>
+                </p>
+            </div>
+        </section>
+    </main>
+    <script src="JSnav.js"></script>
+</body>
+
+</html>

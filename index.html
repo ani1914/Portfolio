@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+
+
+</head>
+
+<body>
+    <!-- Навигация и лого -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><span>P</span>ortfolio</a>
+            </div>
+
+            <nav class="navbar">
+                <button id="burger" class="burger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </button>
+                <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label>Menu</label>
+                <ul>
+
+                    <li><a href="about.html" class="active"> About</a> </li>
+                    <li><a href="info.html" class="active"> Info</a> </li>
+                    <li><a href="education.html" class="active"> Education</a> </li>
+                    <li><a href="skills.html" class="active"> Skills</a> </li>
+                    <li><a href="projects.html" class="active"> Projects</a> </li>
+                    <li><a href="contact.html" class="active"> Contact</a> </li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <main>
+        <!-- Приветстващ текст -->
+        <section class="home" id="home">
+            <div class="container">
+                <div class="home_text">
+                    <h1>Hi, I am Anna-Maria Mitova</h1>
+                    <h3 style="align-items: center;">STUDENT</h3>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="JSnav.js"></script>
+</body>
+
+</html>

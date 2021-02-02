@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+
+    <title>Contact</title>
+
+</head>
+
+<body>
+    <!-- Навигация и лого -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><span>P</span>ortfolio</a>
+            </div>
+            <nav class="navbar">
+                <button id="burger" class="burger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </button>
+                <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label>Menu</label>
+                <ul>
+
+                    <li><a href="about.html" class="active"> About</a> </li>
+                    <li><a href="info.html" class="active"> Info</a> </li>
+                    <li><a href="education.html" class="active"> Education</a> </li>
+                    <li><a href="skills.html" class="active"> Skills</a> </li>
+                    <li><a href="projects.html" class="active"> Projects</a> </li>
+                    <li><a href="contact.html" class="active"> Contact</a> </li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <main>
+        <section class="contact">
+            <div class="container">
+                <!-- Заглаиве на страницата -->
+                <h2 class="title1">Contact Us</h2>
+                <!-- Контактна форма -->
+                <div class="contact-content">
+
+                    <form action=" ">
+                        <input type="text" placeholder="Name" />
+                        <input type="text" placeholder="Email" />
+                        <input type="text" placeholder="Subject" />
+                        <textarea placeholder="Message"></textarea>
+                        <button id="myBtn" class="btn-bg">Send Message  </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="JSnav.js"></script>
+    <script src="JSbtn.js"></script>
+
+
+</body>
+
+</html>

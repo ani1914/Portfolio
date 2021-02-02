@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="skills.css">
+
+    <title>Skills</title>
+</head>
+
+<body>
+    <!-- Навигация и лого -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><span>P</span>ortfolio</a>
+            </div>
+            <nav class="navbar">
+                <button id="burger" class="burger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </button>
+                <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label>Menu</label>
+                <ul>
+
+                    <li><a href="about.html" class="active"> About</a> </li>
+                    <li><a href="info.html" class="active"> Info</a> </li>
+                    <li><a href="education.html" class="active"> Education</a> </li>
+                    <li><a href="skills.html" class="active"> Skills</a> </li>
+                    <li><a href="projects.html" class="active"> Projects</a> </li>
+                    <li><a href="contact.html" class="active"> Contact</a> </li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <main>
+        <section class="skills">
+            <!-- Заглаиве на страницата -->
+            <h2 class="title1">Skills</h2>
+            <div class="flex-row">
+                <!-- Лява колона -->
+                <div class="flex">
+
+                    <div class="card">
+                        <label>HTML5</label>
+                        <div class="progress">
+                            <div class="inner" style="width: 90%;"></div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="card">
+                        <label>CSS</label>
+                        <div class="progress">
+                            <div class="inner" style="width: 85%;"></div>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <label>C++</label>
+                        <div class="progress">
+                            <div class="inner" style="width: 70%;"></div>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <label>JavaScript</label>
+                        <div class="progress">
+                            <div class="inner" style="width: 20%;"></div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <!-- Дясна колона -->
+                <div class="flex1">
+
+                    <div class="card">
+                        <label>Microsoft Word</label>
+                        <div class="progress">
+                            <div class="inner" style="width: 95%;"></div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="card">
+                        <label>Microsoft Excel</label>
+                        <div class="progress">
+                            <div class="inner" style="width: 90%;"></div>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <label>Adobe Iliustrator</label>
+                        <div class="progress">
+                            <div class="inner" style="width: 75%;"></div>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <label>Adobe Photoshop</label>
+                        <div class="progress">
+                            <div class="inner" style="width: 50%;"></div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <script src="JSnav.js"></script>
+</body>
+
+</html>
